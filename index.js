@@ -23,7 +23,6 @@ app.get('/', (req, res) => {
 
 app.get('/1', (req, res) => {
   if (arrayDados.length == 0) {
-    console.log(error);
     res.send('Não existe dados!');
   } else {
     let websites = [];
@@ -40,7 +39,6 @@ app.get('/1', (req, res) => {
 
 app.get('/2', (req, res) => {
   if (arrayDados.length == 0) {
-    console.log(error);
     res.send('Não existe dados!');
   } else {
     let dadosNome = [];
@@ -66,7 +64,6 @@ app.get('/2', (req, res) => {
 
 app.get('/3', (req, res) => {
   if (arrayDados.length == 0) {
-    console.log(error);
     res.send('Não existe dados!');
   } else {
     let dadosSuite = [];
